@@ -41,8 +41,8 @@ nav {
 /*##############################*/
 /*NAV IMG*/
 nav > img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
 
 /*##############################*/
@@ -100,6 +100,7 @@ nav > ul > li > a:hover {
 /*##############################*/
 /*ARTICLE, FOTO DO GATO*/
 .elementos1 {
+    width: 99vw;
     height: 97vh;
     background-image: url(../style/img/gato-section-1.jpg);
     background-repeat: no-repeat;
@@ -166,4 +167,52 @@ span {
     width: 20px;
     height: 20px;
     margin-left: 33px;
+}
+
+/*##############################*/
+/*SECTION2*/
+.waves > img {
+    width: 99vw;
+}
+
+/*ARTICLE SOBRE*/
+.sobre {
+    margin-top: -20px;
+}
+
+/*ARTICLE H1*/
+.sobre > h1 {
+    color: var(--verde-titulo);
+    font-family: var(--inter);
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*PARTE DO TEXTO E DO CAO*/
+.container-geral {
+    display: flex;
+    background-image: url(img/patas-fundo.png);
+    padding: 0px 5%;
+}
+
+.text {
+    height: max-content;
+    background-color: white;
+    padding: 5px;
+    margin-right: 24
+
+}
+
+.text > p{
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#cont-right > img {
+    border-top-left-radius: 167px;
+    border-bottom-left-radius: 333px;
+    border-top-right-radius: 63px;
+    border-bottom-right-radius: 168px;
 }
