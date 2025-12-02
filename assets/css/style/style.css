@@ -41,8 +41,8 @@ nav {
 /*##############################*/
 /*NAV IMG*/
 nav > img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 
 /*##############################*/
@@ -58,6 +58,10 @@ nav > ul > li > a{
     color: var(--black);
     text-decoration: none;
     margin-left: 20px;
+}
+
+nav > ul > li > a:hover {
+    color: #A0D925;
 }
 
 /*##############################*/
@@ -129,7 +133,7 @@ nav > ul > li > a{
     font-family: var(--poppins);
     font-weight: 800;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 
@@ -137,6 +141,7 @@ nav > ul > li > a{
 .bloco-text > p {
     color: white;
     font-family: var(--inter);
+    margin-bottom: 60px;
 }
 
 /*SPANS COM A COR AZUL*/
@@ -145,3 +150,20 @@ span {
 }
 
 /*BOTÃO*/
+.btn {
+    color: white;
+    font-family: var(--inter);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, var(--verde-titulo), var(--verde-btn), var(--azul-btn));
+    padding: 18px;
+    border-radius: 45px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.btn > span > img{
+    width: 20px;
+    height: 20px;
+    margin-left: 33px;
+}
