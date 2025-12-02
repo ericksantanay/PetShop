@@ -18,12 +18,69 @@
 /*##############################*/
 /*HEADER*/
 header {
-    padding: 5px 5%;
     width: 100%;
+    padding: 5px 5%;
+    position: sticky;
 }
 
 /*##############################*/
 /*NAV*/
 nav {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+/*##############################*/
+/*NAV IMG*/
+nav > img {
+    width: 120px;
+    height: 120px;
+}
+
+/*##############################*/
+/*UL E LI*/
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav > ul > li > a{
+    font-family: var(--inter);
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/*##############################*/
+/*MENU BURGUER*/
+#menu {
+    display: none;
+}
+
+/*##############################*/
+/*MENU MOBILE*/
+#mobile {
+    display: flex;
+    justify-content: center;
+}
+
+#mobile ul {
+    list-style: none;
+}
+
+#mobile ul  li {
+    margin-bottom: 20px;
+}
+
+#mobile > ul > li > a {
+    font-family: var(--inter);
+    font-weight: bold;
+    color: var(--black);
+    text-decoration: none;   
+}
+
+
+/*##############################*/
+/*MENU MOBILE*/
