@@ -383,11 +383,25 @@ nav > ul > li > a:hover {
     font-size: 20px;
 }
 
-/*BOTÃO  MAIS AVALIAÇÕES*/
+/*BOTÃO  (MAIS AVALIAÇÕES)*/
 #avaliacao {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #avaliacao > a {
+    font-family: var(--inter);
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 15px 70px 15px 70px;
     background-color: var(--azul-btn);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+#avaliacao > a:hover {
+    color: rgb(169, 169, 169);
+    background-color: #083a47;
 }
