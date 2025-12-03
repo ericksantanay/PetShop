@@ -296,10 +296,13 @@ span {
     background-image: linear-gradient(to right, var(--verde-titulo), var(--verde-btn), var(--azul-btn));
 }
 
+/*BOTÃO DOS CARDS HOVER*/
 .btn-card:hover {
     box-shadow: #70b34083 0px 8px 24px;
 }
 
-
-
-
+/*##############################*/
+/*DEPOIMENTOS*/
+.container-depoimentos {
+    
+}
