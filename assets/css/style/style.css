@@ -22,6 +22,10 @@
     --azul-btn: #0F7087; /*ESSA COR TAMBÉM VAI PARA O BOTÃO DE DEPOIMENTOS*/
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*##############################*/
 /*HEADER*/
 header {
@@ -162,6 +166,7 @@ span {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
     background-image: linear-gradient(to right, var(--verde-titulo), var(--verde-btn), var(--azul-btn));
     padding: 18px;
     border-radius: 45px;
@@ -173,16 +178,13 @@ span {
     box-shadow: #70b34083 0px 8px 24px;
 }
 
-.btn > span > img{
-    width: 20px;
-    height: 20px;
-    margin-left: 33px;
-}
+
 
 /*##############################*/
 /*SECTION2*/
 .waves > img {
     width: 99vw;
+    height: 40vh;
 }
 
 /*ARTICLE SOBRE*/
@@ -201,6 +203,7 @@ span {
 
 /*PARTE DO TEXTO E DO CAO*/
 .container-geral {
+    width: 99vw;
     display: flex;
     background-image: url(img/patas-fundo.png);
     padding: 0px 5%;
@@ -253,7 +256,7 @@ span {
 /*CARD*/
 .card {
     font-family: var(--inter);
-    width: 240px;
+    width: 270px;
     height: 470px;
     border-radius: 10px;
     padding: 10px;
@@ -276,20 +279,27 @@ span {
 /*CARD PARAGRAFO!*/
 .card > p {
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 /*BOTÃO DOS CARDS*/
 .btn-card {
-    padding: 20px;
+    color: white;
+    font-family: var(--inter);
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 60px;
+    padding: 15px;
+    transition: .3s;
     background-image: linear-gradient(to right, var(--verde-titulo), var(--verde-btn), var(--azul-btn));
 }
 
-/*IMGEM DOS BTN*/
-.btn-card > span > img {
-    width: 20px;
-    height: 20px;
+.btn-card:hover {
+    box-shadow: #70b34083 0px 8px 24px;
 }
+
 
 
 
