@@ -242,7 +242,7 @@ span {
 
 /*ARTICLE*/
 .armazem-cards {
-    padding: 10px;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,6 +252,7 @@ span {
 
 /*CARD*/
 .card {
+    font-family: var(--inter);
     width: 240px;
     height: 470px;
     border-radius: 10px;
@@ -266,8 +267,29 @@ span {
     height: 100px;
 }
 
-
+/*CARD > H2*/
 .card > h2 {
-    font-family: var(--inter);
-
+    margin-bottom: 12px;
 }
+
+
+/*CARD PARAGRAFO!*/
+.card > p {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/*BOTÃO DOS CARDS*/
+.btn-card {
+    padding: 20px;
+    background-image: linear-gradient(to right, var(--verde-titulo), var(--verde-btn), var(--azul-btn));
+}
+
+/*IMGEM DOS BTN*/
+.btn-card > span > img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
