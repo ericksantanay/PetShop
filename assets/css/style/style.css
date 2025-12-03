@@ -415,10 +415,11 @@ nav > ul > li > a:hover {
 }
 
 
-.imgs > img{
-    width: 100%;
-    height: 100%;
+#carrossel{
+    width: 500px;
+    height: 500px;
     background-color: #083a47;
+    border-radius: 10px;
 }
 
 
