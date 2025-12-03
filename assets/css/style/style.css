@@ -155,7 +155,7 @@ nav > ul > li > a:hover {
 }
 
 /*SPANS COM A COR AZUL*/
-span {
+.bloco-text > p > span {
     color: var(--azul);
 }
 
@@ -178,8 +178,6 @@ span {
     box-shadow: #70b34083 0px 8px 24px;
 }
 
-
-
 /*##############################*/
 /*SECTION2*/
 .waves > img {
@@ -197,6 +195,7 @@ span {
     color: var(--verde-titulo);
     font-family: var(--inter);
     font-weight: 800;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -210,6 +209,7 @@ span {
 }
 
 .text {
+    width: 50%;
     height: max-content;
     background-color: white;
     padding: 5px;
@@ -220,7 +220,7 @@ span {
 .text > p{
     font-family: var(--poppins);
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #cont-right > img {
@@ -238,6 +238,7 @@ span {
     color: var(--verde-titulo);
     font-family: var(--inter);
     font-weight: 800;
+    font-size: 3rem;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;    
@@ -307,8 +308,9 @@ span {
     color: var(--verde-titulo);
     font-family: var(--inter);
     font-weight: 800;
+    font-size: 3rem;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -50px;
     margin-bottom: 30px;
 }
 
@@ -316,6 +318,7 @@ span {
 .conteudo-depoimento {
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
 }
 
 /*DIV DO LADO ESQUERDO*/
@@ -332,6 +335,59 @@ span {
 /*LADO DIREITO*/
 .right {
     padding: 15px;
-    background-color: #2A9CBD;
-    margin-top: 20%;
+    margin-top: 10%;
+}
+
+/*LADO DIREITO H2*/
+.right > h2 {
+    font-size: 4rem;
+    font-family: var(--inter);
+    text-align: center;
+}
+
+.card-depoimento {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+/*IMG GERAL*/
+.card-depoimento > img {
+    margin-bottom: 30px;
+}
+
+/*DIV COM OS CONTEUDOS IMG*/
+.foto {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/*IMG ESTRELA */
+.estrela {
+    margin-left: 77%;
+}
+
+/*CARD DO DEPOIMENTO H3 E O PARAGRAFO*/
+/*H3 SOZINHO !*/
+.conteudo-text > h3 {
+    font-size: 2rem;
+    padding-left: 15px;
+    font-family: var(--poppins);
+}
+/*PARAGRAFO SOZINHO!*/
+.conteudo-text > p {
+    padding-left: 15px;
+    font-family: var(--poppins);
+    font-size: 20px;
+}
+
+/*BOTÃO  MAIS AVALIAÇÕES*/
+#avaliacao {
+    text-align: center;
+}
+
+#avaliacao > a {
+    background-color: var(--azul-btn);
 }
