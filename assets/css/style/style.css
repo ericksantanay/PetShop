@@ -231,6 +231,9 @@ span {
 /*##############################*/
 /*SERVIÇOS*/
 
+#servicos {
+    background-color: #2C3E50; 
+}
 
 /*H1*/
 #servicos > h1{
@@ -238,7 +241,9 @@ span {
     font-family: var(--inter);
     font-weight: 800;
     text-align: center;
+    background-color: white;
     margin-top: 70px;
+    margin-bottom: 20px;    
 }
 
 /*ARTICLE*/
@@ -248,5 +253,12 @@ span {
     gap: 20px;
 }
 
+.card {
 
+}
+
+.card > img{
+    width: 100px;
+    height: 100px;
+}
 
