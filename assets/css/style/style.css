@@ -242,21 +242,32 @@ span {
 
 /*ARTICLE*/
 .armazem-cards {
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    background-color: #2C3E50;
 }
 
+/*CARD*/
 .card {
-    width: 200px;
-    padding: 20px;
+    width: 240px;
+    height: 470px;
+    border-radius: 10px;
+    padding: 10px;
     background-color: white;
     text-align: center;
 }
 
+/*IMAGEM DOS CARDS*/
 .card > img{
     width: 100px;
     height: 100px;
 }
 
+
+.card > h2 {
+    font-family: var(--inter);
+
+}
