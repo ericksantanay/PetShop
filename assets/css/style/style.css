@@ -230,6 +230,23 @@ span {
 
 /*##############################*/
 /*SERVIÇOS*/
-.armazem-cards {
-    
+
+
+/*H1*/
+#servicos > h1{
+    color: var(--verde-titulo);
+    font-family: var(--inter);
+    font-weight: 800;
+    text-align: center;
+    margin-top: 70px;
 }
+
+/*ARTICLE*/
+.armazem-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
