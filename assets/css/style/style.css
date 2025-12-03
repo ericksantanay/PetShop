@@ -405,3 +405,35 @@ nav > ul > li > a:hover {
     color: rgb(169, 169, 169);
     background-color: #083a47;
 }
+
+
+/*##############################*/
+/*FOOTER*/
+footer {
+    box-shadow: 3px 4px 5px 5px rgba(0, 0, 0, 0.152);
+    padding: 80px 20px;
+}
+
+#final-text {
+text-align: center;
+}
+
+#final-text > p {
+    font-family: var(--inter);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#icones  a  img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s;
+}
+
+#icones  a  img:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   border-radius: 50%;
+}
