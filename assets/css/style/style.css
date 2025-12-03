@@ -303,6 +303,18 @@ span {
 
 /*##############################*/
 /*DEPOIMENTOS*/
-.container-depoimentos {
-    
+.container-depoimentos > h1{
+    color: var(--verde-titulo);
+    font-family: var(--inter);
+    font-weight: 800;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 30px;
+}
+
+/*CONTAINER DA IMAGEM E DOS DEPOIMENTOS*/
+.conteudo-depoimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
