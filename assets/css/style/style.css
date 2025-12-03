@@ -45,8 +45,8 @@ nav {
 /*##############################*/
 /*NAV IMG*/
 nav > img {
-    width: 123px;
-    height: 123px;
+    width: 90px;
+    height: 90px;
 }
 
 /*##############################*/
@@ -230,31 +230,29 @@ span {
 
 /*##############################*/
 /*SERVIÇOS*/
-
-#servicos {
-    background-color: #2C3E50; 
-}
-
 /*H1*/
 #servicos > h1{
     color: var(--verde-titulo);
     font-family: var(--inter);
     font-weight: 800;
     text-align: center;
-    background-color: white;
     margin-top: 70px;
     margin-bottom: 20px;    
 }
 
 /*ARTICLE*/
 .armazem-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .card {
-
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
 }
 
 .card > img{
