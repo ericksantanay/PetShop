@@ -35,7 +35,7 @@ header {
     top: 0;
     background-color: white;
     z-index: 3;
-    
+    box-shadow: 3px 4px 5px 6px rgba(0, 0, 0, 0.043);
 }
 
 /*##############################*/
@@ -315,6 +315,23 @@ span {
 /*CONTAINER DA IMAGEM E DOS DEPOIMENTOS*/
 .conteudo-depoimento {
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+/*DIV DO LADO ESQUERDO*/
+.left {
+    padding: 10px;
+}
+
+/*DIV LADO ESQUERDO IMAG*/
+.left > img {
+    width: 582px;
+    height: 770px;
+}
+
+/*LADO DIREITO*/
+.right {
+    padding: 15px;
+    background-color: #2A9CBD;
+    margin-top: 20%;
 }
