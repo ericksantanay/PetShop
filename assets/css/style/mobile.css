@@ -43,8 +43,42 @@
         display: none;
     }
     /*###########################*/
-   /*PARTE DO SOBRE NÓS*/
-    
+   /*PARTE DOS SERVIÇOS*/
+    .armazem-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    /*###########################*/
+    /*PARTE DO DEPOIMENTOS*/
+    .left > img {
+       display: none;
+    }
+
+    .right > h2 {
+        font-size: 30px;
+    }
+
+    .card-depoimento {
+        width: auto;
+    }
+
+    .card-depoimento > .foto {
+
+    }
+
+    .card-depoimento > .estrela {
+        
+    }
 
 
+}
+
+
+/*###########################*/
+   /*PARA OUTROS DISPOSITIVOS*/
+@media screen and (max-width: 1140px) {
+    .armazem-cards {
+        flex-wrap: wrap;
+        gap: 150px;
+    }
 }
