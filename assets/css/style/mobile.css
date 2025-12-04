@@ -1,3 +1,7 @@
+
+/*###########################*/
+/*MEDIA QUERY*/
+/*###########################*/
 @media screen and (max-width: 992px){
     /*NAV UL */
     nav > ul {
@@ -11,7 +15,30 @@
         display: block;
     }
 
-   
+   /*###########################*/
+   /*PARTE DO SOBRE NÓS*/
+    .sobre > h1 {
+        font-size: 38px;
+    }
+
+    .container-geral {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text > p{
+        font-size: 20px;
+    }
+
+    #cont-right > img {
+        display: none;
+    }
+    
 
     
 }
