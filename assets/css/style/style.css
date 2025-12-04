@@ -79,29 +79,6 @@ nav > ul > li > a:hover {
     display: none;
 }
 
-/*##############################*/
-/*MENU MOBILE*/
-#mobile {
-    display: flex;
-    justify-content: center;
-}
-
-#mobile ul {
-    display: none;
-    list-style: none;
-}
-
-#mobile ul  li {
-    margin-bottom: 20px;
-}
-
-#mobile > ul > li > a {
-    font-family: var(--inter);
-    font-weight: bold;
-    color: var(--black);
-    text-decoration: none;   
-}
-
 
 /*##############################*/
 /*SECTION1*/
