@@ -17,7 +17,11 @@
 
    /*###########################*/
    /*PARTE DO SOBRE NÓS*/
-    .sobre > h1 {
+    .waves > img {
+        height: 100%;
+    }
+
+    .sobre > h1,#servicos > h1,.container-depoimentos > h1 {
         font-size: 38px;
     }
 
@@ -38,7 +42,9 @@
     #cont-right > img {
         display: none;
     }
+    /*###########################*/
+   /*PARTE DO SOBRE NÓS*/
     
 
-    
+
 }
