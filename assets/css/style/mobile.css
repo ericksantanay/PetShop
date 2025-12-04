@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px){
+    /*NAV UL */
+    nav > ul {
+        display: none;
+    }
+
+
+    /*MENU BURGUER*/
+    #menu {
+        font-size: 2rem;
+        display: block;
+    }
+
+    /*ELEMENTOS, EX: INICIO, SOBRE ETC*/
+    #mobile {
+        display: block;
+    }
+}
