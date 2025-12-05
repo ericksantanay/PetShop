@@ -107,7 +107,7 @@ nav > ul > li > a:hover {
 /*##############################*/
 /*ARTICLE, FOTO DO GATO*/
 .elementos1 {
-    width: 99vw;
+    width: 100%;
     height: 97vh;
     background-image: url(../style/img/gato-section-1.jpg);
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ nav > ul > li > a:hover {
 /*##############################*/
 /*SECTION2*/
 .waves > img {
-    width: 99vw;
+    width: 100%;
     height: 40vh;
 }
 
@@ -202,7 +202,7 @@ nav > ul > li > a:hover {
 
 /*PARTE DO TEXTO E DO CAO*/
 .container-geral {
-    width: 99vw;
+    width: 100%;
     display: flex;
     background-image: url(img/patas-fundo.png);
     padding: 0px 5%;
