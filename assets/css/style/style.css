@@ -26,6 +26,25 @@ html {
     scroll-behavior: smooth;
 }
 
+    /*########################################*/
+    /*EFEITO SCROL*/
+    /*#######################################*/
+    .efeito {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s  ease-in-out;
+    }
+
+    .efeito.ativo {
+    opacity: 1;
+    transform: translateY(0);
+    }
+
+
+    body {
+        min-height: 200vh;
+    }
+
 /*##############################*/
 /*HEADER*/
 header {
