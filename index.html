@@ -15,9 +15,10 @@
         <nav>
             <img src="assets/image/logo.png" alt="Logo">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nós<s></s></a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nos">Sobre Nós<s></s></a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimento">Depoimentos</a></li>
             </ul>
 
             <span id="menu" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
@@ -25,15 +26,16 @@
 
         <div id="mobile">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nós<s></s></a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nos">Sobre Nós<s></s></a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimento">Depoimentos</a></li>
             </ul>
         </div>
     </header> <!--PARTE INCIAL DO SITE NAV BAR FINAL-->
 
     <main> <!--MAIN, CORPO DO SITE-->
-        <section class="container1"> <!--PRIMEIRA SEÇÃO-->
+        <section class="container1" id="inicio"> <!--PRIMEIRA SEÇÃO-->
             <article class="elementos1">
                 <!--FOTO DE FUNDO DO GATO,-->
                 <div id="container-txt"> <!--INICIO DIV-->
@@ -50,7 +52,7 @@
             </article>
         </section> <!--PRIMEIRA SEÇÃO-->
 
-        <section> <!--SEÇÃO 2-->
+        <section id="sobre-nos"> <!--SEÇÃO 2-->
             <div class="waves "> <!--DIV IMAGEM DA ANDULAÇÃO -->
                 <img src="assets/image/wave-verde.png" alt="wave">
             </div><!--DIV IMAGEM ANDULAÇÃO-->
@@ -126,7 +128,7 @@
             
         </section><!--SEÇÃO SERVIÇOS-->
             
-        <section> <!--SEÇÃO DE DEPOIMENTOS-->
+        <section id="depoimento"> <!--SEÇÃO DE DEPOIMENTOS-->
             <div class="waves">
                 <img src="assets/image/linha-verde.png" alt="Linha Verde">
             </div>
@@ -178,7 +180,7 @@
 
     </main><!--FINAL-->
     <footer> <!--FOOTER INICIO-->
-        <div id="foot-geral">
+        <div id="foot-geral" class="animar">
             
             <div id="icones">
                 <a href="#"><img src="assets/image/icon/linkedin.png" alt="linkedin"></a>
@@ -188,7 +190,7 @@
                 <a href="#"><img src="assets/image/icon/github.png" alt="github"></a>
             </div>
 
-            <div id="final-text">
+            <div id="final-text" class="animar">
                 <p>Termos de Privacidade</p>
                 <p>&copy; 2025  Erick Santana</p>
             </div>
