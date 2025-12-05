@@ -406,22 +406,6 @@ nav > ul > li > a:hover {
     background-color: #083a47;
 }
 
-/*##############################*/
-/*CARROSSEL DE IMAGENS*/
-.imgs {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-}
-
-
-#carrossel{
-    width: 500px;
-    height: 500px;
-    background-color: #083a47;
-    border-radius: 10px;
-}
-
 
 /*##############################*/
 /*FOOTER*/
