@@ -3,6 +3,11 @@
 /*MEDIA QUERY*/
 /*###########################*/
 @media screen and (max-width: 768px){
+
+    header {
+        padding: 5px;
+    }
+
     /*NAV UL */
     nav > ul {
         display: none;
