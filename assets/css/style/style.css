@@ -285,6 +285,12 @@ nav > ul > li > a:hover {
     text-align: center;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    transition: .3s ease;
+}
+
+
 /*IMAGEM DOS CARDS*/
 .card > img{
     width: 100px;
