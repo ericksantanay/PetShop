@@ -64,24 +64,32 @@
     }   
 
     .card-depoimento > .estrela {
-        margin-left: 20%;
+        margin-left: 5%;
         margin-bottom: 60px;
     }
 
-}
+    /*BOTÃO  (MAIS AVALIAÇÕES)*/
 
-/*###########################*/
-/*ATÉ 992PX*/
-@media screen and (min-width: 992px) {
-    .armazem-cards {
-        flex-wrap: wrap;
-        gap: 150px;
+    #avaliacao > a {
+    font-size: 1.7rem;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
     }
+
+    /*###################################*/
+    /*FOOTER*/
+    
 
 }
 
 /*ATÉ 1200PX*/
 @media screen and (min-width: 768px) and (max-width: 1200px){
+    .armazem-cards {
+        flex-wrap: wrap;
+        gap: 150px;
+    }
+
+
     /*###########################*/
     /*PARTE DO DEPOIMENTOS*/
     .left > img {
